@@ -12,13 +12,20 @@ import ChromeIcon from '@/assets/icons/chrome.svg'
 import GithubIcon from '@/assets/icons/github.svg'
 import mapImage from '@/assets/images/map.png'
 import smileMemoji from '@/assets/images/memoji-smile.png'
-import { title } from 'process'
+import mongodb from '@/assets/icons/mongodb.svg'
+import nextjs_icon_dark from '@/assets/icons/nextjs_icon_dark.svg'
+import shadcn_ui from '@/assets/icons/shadcn_ui.svg'
+import typescript from '@/assets/icons/typescript.svg'
 import { CardHeader } from '@/components/CardHeader'
 import { ToolboxItems } from '@/components/ToolboxItems'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 
 const toolboxItems = [
+  {
+    title: 'NextJS',
+    iconType: nextjs_icon_dark,
+  },
   {
     title: 'JavaScript',
     iconType: JavascriptIcon,
@@ -28,8 +35,20 @@ const toolboxItems = [
     iconType: ReactIcon,
   },
   {
+    title: 'TypeScript',
+    iconType: typescript,
+  },
+  {
+    title: 'MongoDB',
+    iconType: mongodb,
+  },
+  {
     title: 'HTML5',
     iconType: HTMLIcon,
+  },
+  {
+    title: 'Shadcn UI',
+    iconType: shadcn_ui,
   },
   {
     title: 'CSS3',
