@@ -12,7 +12,7 @@ export const Header = () => {
           About
         </a>
         <a
-          href='https://drive.google.com/file/d/12hlKpqvz9OXfI8cHS7IRFRAsI35-zquc/view?usp=sharing'
+          href='https://drive.google.com/file/d/18wxc5VHxtL9Va4w-Hh1oz3tuSHT1gvbv/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className='nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900'
